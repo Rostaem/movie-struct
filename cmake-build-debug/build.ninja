@@ -51,15 +51,31 @@ build cmake_object_order_depends_target_movie_struct: phony || .
 
 build CMakeFiles/movie_struct.dir/main.cpp.o: CXX_COMPILER__movie_struct_unscanned_Debug /Users/hania/CLionProjects/movie_struct/main.cpp || cmake_object_order_depends_target_movie_struct
   DEP_FILE = CMakeFiles/movie_struct.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/hania/CLionProjects/movie_struct/src -I/Users/hania/CLionProjects/movie_struct/utils
   OBJECT_DIR = CMakeFiles/movie_struct.dir
   OBJECT_FILE_DIR = CMakeFiles/movie_struct.dir
 
 build CMakeFiles/movie_struct.dir/src/movie.cpp.o: CXX_COMPILER__movie_struct_unscanned_Debug /Users/hania/CLionProjects/movie_struct/src/movie.cpp || cmake_object_order_depends_target_movie_struct
   DEP_FILE = CMakeFiles/movie_struct.dir/src/movie.cpp.o.d
-  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/hania/CLionProjects/movie_struct/src -I/Users/hania/CLionProjects/movie_struct/utils
   OBJECT_DIR = CMakeFiles/movie_struct.dir
   OBJECT_FILE_DIR = CMakeFiles/movie_struct.dir/src
+
+build CMakeFiles/movie_struct.dir/utils/input_validation.cpp.o: CXX_COMPILER__movie_struct_unscanned_Debug /Users/hania/CLionProjects/movie_struct/utils/input_validation.cpp || cmake_object_order_depends_target_movie_struct
+  DEP_FILE = CMakeFiles/movie_struct.dir/utils/input_validation.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/hania/CLionProjects/movie_struct/src -I/Users/hania/CLionProjects/movie_struct/utils
+  OBJECT_DIR = CMakeFiles/movie_struct.dir
+  OBJECT_FILE_DIR = CMakeFiles/movie_struct.dir/utils
+
+build CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o: CXX_COMPILER__movie_struct_unscanned_Debug /Users/hania/CLionProjects/movie_struct/utils/menu_option.cpp || cmake_object_order_depends_target_movie_struct
+  DEP_FILE = CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/hania/CLionProjects/movie_struct/src -I/Users/hania/CLionProjects/movie_struct/utils
+  OBJECT_DIR = CMakeFiles/movie_struct.dir
+  OBJECT_FILE_DIR = CMakeFiles/movie_struct.dir/utils
 
 
 # =============================================================================
@@ -69,7 +85,7 @@ build CMakeFiles/movie_struct.dir/src/movie.cpp.o: CXX_COMPILER__movie_struct_un
 #############################################
 # Link the executable movie_struct
 
-build movie_struct: CXX_EXECUTABLE_LINKER__movie_struct_Debug CMakeFiles/movie_struct.dir/main.cpp.o CMakeFiles/movie_struct.dir/src/movie.cpp.o
+build movie_struct: CXX_EXECUTABLE_LINKER__movie_struct_Debug CMakeFiles/movie_struct.dir/main.cpp.o CMakeFiles/movie_struct.dir/src/movie.cpp.o CMakeFiles/movie_struct.dir/utils/input_validation.cpp.o CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/movie_struct.dir
   POST_BUILD = :

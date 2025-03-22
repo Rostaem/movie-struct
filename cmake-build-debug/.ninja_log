@@ -1,2 +1,23 @@
 # ninja log v6
-1	73	1742611101456886263	build.ninja	30b32fb95e131c4d
+11	924	1742616318511324073	CMakeFiles/movie_struct.dir/utils/input_validation.cpp.o	d7e1569b417b932
+11	757	1742617650618983918	CMakeFiles/movie_struct.dir/main.cpp.o	5653183074ae6589
+757	937	1742617651365773023	movie_struct	6e7d3fc6dbb5f8f7
+9	695	1742617509959030023	CMakeFiles/movie_struct.dir/src/movie.cpp.o	ae41bfc1bc0f2c8c
+1	70	1742618524077631118	build.ninja	30b32fb95e131c4d
+10	68	1742618524077631118	build.ninja	30b32fb95e131c4d
+11	620	1742618568710784253	CMakeFiles/movie_struct.dir/main.cpp.o	5653183074ae6589
+11	675	1742618579865689312	CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o	5edb3061b2b1e51a
+676	853	1742618580530333859	movie_struct	e7810d7226245f8c
+14	1168	1742619382364549971	CMakeFiles/movie_struct.dir/src/movie.cpp.o	ae41bfc1bc0f2c8c
+13	733	1742619419761644981	CMakeFiles/movie_struct.dir/main.cpp.o	5653183074ae6589
+13	735	1742619419762173922	CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o	5edb3061b2b1e51a
+735	916	1742619420483270359	movie_struct	e7810d7226245f8c
+12	1673	1742619448761850871	CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o	5edb3061b2b1e51a
+1673	1851	1742619450422459208	movie_struct	e7810d7226245f8c
+13	1064	1742620253308058311	CMakeFiles/movie_struct.dir/main.cpp.o	5653183074ae6589
+15	1073	1742620253309816499	CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o	5edb3061b2b1e51a
+15	1078	1742620253309429637	CMakeFiles/movie_struct.dir/src/movie.cpp.o	ae41bfc1bc0f2c8c
+1078	1311	1742620254373129039	movie_struct	e7810d7226245f8c
+11	907	1742620383138528872	CMakeFiles/movie_struct.dir/main.cpp.o	5653183074ae6589
+12	914	1742620383139477505	CMakeFiles/movie_struct.dir/utils/menu_option.cpp.o	5edb3061b2b1e51a
+914	1090	1742620384041148435	movie_struct	e7810d7226245f8c

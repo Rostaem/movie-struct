@@ -1,43 +1,34 @@
 #ifndef MOVIE_H
 #define MOVIE_H
 
-#include <iostream>
 #include <string>
-#include <memory> // For smart pointers
-#include <sstream>
+#include <memory>
+#include <ostream>
+
 using namespace std;
 
-/**
- * Namespace to encapsulate movie-related functionality.
- */
 namespace movie_namespace {
 
-	/**
-	 * Struct for representing a date.
-	 */
 	struct Date {
-		int day;   ///< Day of the month (1-31)
-		int month; ///< Month of the year (1-12)
-		int year;  ///< Year (e.g., 2025)
+		int day;
+		int month;
+		int year;
 	};
 
-	/**
-	 * Struct for representing a movie.
-	 */
 	struct Movie {
-		string title;      ///< Movie title
-		Date release_date; ///< Release date (nested struct)
-		bool is_popular;   ///< Indicates if the movie is popular
-		string director;   ///< Director's name
+		string title;
+		Date release_date;
+		bool is_popular;
+		string director;
 	};
 
-	// Function Prototypes
-	unique_ptr<Movie> create_movie();
-	void display_movie(const unique_ptr<Movie>& movie);
-	ostream& operator<<(ostream& os, const Movie& movie);
 	string format_date(const Date& date);
 	void log_action(const string& message);
+	unique_ptr<Movie> create_movie();
+	void display_movie(const unique_ptr<Movie>& movie);
 
-} // namespace movie_namespace
+	ostream& operator<<(ostream& os, const Movie& movie);
+
+}
 
 #endif

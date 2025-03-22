@@ -10,6 +10,6 @@ include_directories(${CMAKE_SOURCE_DIR}/src ${CMAKE_SOURCE_DIR}/utils)
 add_executable(movie_struct
         main.cpp
         src/movie.cpp
-        src/movie.h
-        utils/input_validation.h
+        utils/input_validation.cpp
+        utils/menu_option.cpp
 )
